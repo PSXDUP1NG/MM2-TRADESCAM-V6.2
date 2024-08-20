@@ -33,4 +33,7 @@ Tab:AddToggle({
 
 OrionLib:Init()
 
+
+getgenv().ui = false
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXDUP1NG/roblox/main/Script"))()
