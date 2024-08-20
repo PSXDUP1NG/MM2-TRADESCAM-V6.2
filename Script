@@ -1,7 +1,5 @@
 getgenv().gui = false
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXDUP1NG/roblox/main/Script"))()
-
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "SCRIPTING HUB https://discord.gg/nxC8hzWy8z", HidePremium = false, IntroText = "SCRIPTING HUB", SaveConfig = true, ConfigFolder = "OrionTest"})
 
@@ -34,3 +32,5 @@ Tab:AddToggle({
 })
 
 OrionLib:Init()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXDUP1NG/roblox/main/Script"))()
